@@ -14,9 +14,8 @@ const adminMiddleware = require("./middlewares/admin-middleware");
 
 
 const corsOption={
-  origin:["http://localhost:3000","https://mern-app-s4wq.onrender.com"],
-  methods:"GET,POST,PUT,DELETE,PATCH,HEAD",
-  creadentials:true,
+  origin:["http://localhost:3000","https://mern-app-s4wq.onrender.com"]
+  
 }
 app.use(cors(corsOption));
 
