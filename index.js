@@ -30,7 +30,7 @@ main().then(() => {
 
 
 async function main() {
-  await mongoose.connect('mongodb://127.0.0.1:27017/thapatechnical');
+  await mongoose.connect('mongodb+srv://komalm02022004:Snehal@cluster0.xvikhua.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0');
 }
 app.get("/", (req, res) => {
   res.status(200).send("Welcome to thapa technical Mern Series Updated");
